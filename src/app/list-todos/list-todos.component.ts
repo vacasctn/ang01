@@ -18,8 +18,8 @@ export class Todo {
 export class ListTodosComponent implements OnInit {
  todos = [
    new Todo(1, 'Learn to Dance', false, new Date()), 
-   new Todo(2, 'become expert in angular', false, new Date()), 
-   new Todo(3, 'visit india', false, new Date()), 
+   new Todo(2, 'Become expert in angular', false, new Date()), 
+   new Todo(3, 'Visit India', false, new Date()), 
 
 //     {id: 1, description: 'Learn to dance'}, 
 //     {id: 2, description: 'Become an expert at angular'}, 
